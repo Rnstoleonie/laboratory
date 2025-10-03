@@ -1,0 +1,117 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+.resume {
+  max-width: 210mm; /* A4 width */
+  margin: auto;
+  padding: 10mm;
+  background: #fff;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 10mm;
+}
+
+.header .logo {
+  font-size: 12mm;
+  font-weight: bold;
+  border: 0.5mm solid #000;
+  display: inline-block;
+  padding: 2mm 4mm;
+  margin-top: 2mm;
+  border-radius: 50%;
+}
+
+/* Top Info Section */
+.top-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 10mm;
+  margin-bottom: 10mm;
+}
+
+.top-info h3 {
+  margin-bottom: 3mm;
+  border-bottom: 0.3mm solid #000;
+  padding-bottom: 1mm;
+}
+
+.contact, .portfolio {
+  flex: 1;
+}
+
+.contact p, .portfolio p {
+  margin: 2mm 0;
+  font-size: 3.8mm;
+}
+
+.contact i, .portfolio i {
+  margin-right: 2mm;
+  color: #444;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 10mm;
+}
+
+.section h3 {
+  border-bottom: 0.3mm solid #000;
+  padding-bottom: 1mm;
+  margin-bottom: 3mm;
+}
+
+.item {
+  margin-bottom: 5mm;
+}
+
+.item h4 {
+  margin: 0;
+  font-size: 4mm;
+}
+
+.item span {
+  font-size: 3.5mm;
+  color: #666;
+  float: right;
+}
+
+/* Skills & Awards side by side */
+.two-columns {
+  display: flex;
+  gap: 10mm;
+  margin-bottom: 10mm;
+}
+
+.skills, .awards {
+  flex: 1;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  margin: 2mm 0;
+}
+
+.skills i, .awards i {
+  color: #444;
+  margin-right: 2mm;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 10mm;
+  font-size: 3.5mm;
+  color: #666;
+}
